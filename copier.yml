@@ -17,6 +17,11 @@ prefix_domain:
   default: "{{ project_name | lower | urlencode }}"
   help: "Should be a valid subdomain"
 
+kpiten:
+  type: bool
+  default: false
+  help: "Select yes if you've included kpiten in your odoo instance"
+
 branch_name:
   type: str
   help: "name of the current branch"
